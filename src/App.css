@@ -1,0 +1,23 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: lightgray !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100vh !important;
+}
+
+main {
+  flex-grow: 1 !important;
+}
+
+.forhover:hover {
+  transform: scale(1.01);
+  transition: 0.5s;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 50px 50px 0 rgba(0, 0, 0, 0.24);
+}
+
+.post:hover {
+  background-color: blue !important;
+  transition: 0.5s;
+}
